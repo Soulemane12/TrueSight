@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# True Sight 👓🚀
 
-## Getting Started
+### **Affordable, Custom-Fit Glasses Using AI & 3D Printing**
 
-First, run the development server:
+## 📌 Overview
+True Sight is a **computer vision-powered platform** that makes **custom-fit, 3D-printable glasses accessible** to everyone. By scanning a user’s face with **OpenCV**, the system extracts precise facial measurements and generates perfectly fitting frames using **Onshape API** and **3D printing technology**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Features
+- 📷 **Face Scanning**: Uses OpenCV to measure key facial dimensions.
+- 🎨 **Customization**: Users can choose frame styles, colors, and modify designs.
+- 🖨 **3D Printable Models**: Exports frame designs for direct 3D printing.
+- 🔧 **Advanced Editing**: Users can tweak dimensions via the Onshape API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗 Tech Stack
+- **Frontend**: Next.js, TypeScript, Three.js
+- **Backend**: Flask, Python, OpenCV
+- **3D Modeling**: Onshape, Onshape API
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
+### **Prerequisites**
+Make sure you have the following installed:
+- **Python 3.x**
+- **Node.js & npm**
+- **Flask**
+- **OpenCV** (`pip install opencv-python`)
+- **Onshape API Key** (sign up at [Onshape](https://www.onshape.com/))
 
-## Learn More
+### **Installation**
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-repo/true-sight.git
+   cd true-sight
+   ```
+2. **Backend Setup:**
+   ```sh
+   cd backend
+   pip install -r requirements.txt
+   python app.py
+   ```
+3. **Frontend Setup:**
+   ```sh
+   cd frontend
+   npm install
+   npm run dev
+   ```
+4. **Run the Application**
+   - The **backend** runs on `http://localhost:5000`
+   - The **frontend** runs on `http://localhost:3000`
 
-To learn more about Next.js, take a look at the following resources:
+## 🔥 Future Improvements
+- ✅ **Enhancing UI for better user experience**
+- ✅ **More frame customization options**
+- ✅ **Cloud-based storage for designs**
+- ✅ **Mobile app integration**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏆 Awards & Recognition
+🏅 **Winner – Best High School Hack at HackNYU 2025** 🎉
